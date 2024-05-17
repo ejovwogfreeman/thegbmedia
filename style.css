@@ -429,6 +429,10 @@ footer {
     height: 390px;
     background-color: white;
   }
+  nav {
+    display: block;
+    height: 270px;
+  }
   .section {
     padding: 10px 10px;
     margin-top: 10px;
