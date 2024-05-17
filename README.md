@@ -1,3 +1,4 @@
-# corey_portfolio
-This my portfolio
-https://aiwekhoeaisosa.netlify.app/
+# GB Media
+
+This Official GB Media Website
+https://thegbmedia.netlify.app/
