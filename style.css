@@ -65,22 +65,22 @@ header .left .text ul li a {
 }
 
 header .left .text ul li:first-child a {
-  background-color: #985454;
+  background-color: #ff0000;
 }
 header .left .text ul li:nth-child(2) a {
-  background-color: #666;
+  background-color: #1da1f2;
 }
 header .left .text ul li:nth-child(3) a {
-  background-color: #936c6b;
+  background-color: #fd1d1d;
 }
 header .left .text ul li:nth-child(4) a {
-  background-color: #7fa6c4;
+  background-color: #4267b2;
 }
 header .left .text ul li:nth-child(5) a {
-  background-color: #286a8d;
+  background-color: #0077b5;
 }
 header .left .text ul li:nth-child(6) a {
-  background-color: #ffa500;
+  background-color: #000;
 }
 
 header .left ul {
@@ -138,7 +138,7 @@ nav ul a:hover {
   color: pink;
 }
 
-/* .section style */
+/* section style */
 
 .section {
   padding: 50px 80px;
