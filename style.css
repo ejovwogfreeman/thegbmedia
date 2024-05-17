@@ -326,7 +326,7 @@ footer {
     display: block;
     text-align: center;
     border-top: 10px solid #72818e;
-    height: 385px;
+    height: 380px;
     background-color: white;
   }
 
@@ -416,6 +416,18 @@ footer {
 
   .section iframe {
     padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    padding: 10px 10px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    border-top: 10px solid #72818e;
+    height: 390px;
+    background-color: white;
   }
 }
 
