@@ -22,7 +22,11 @@
         <img src="gbmedia.jpg" alt="" />
         <div class="text">
           <h1>GB Media</h1>
-          <span style="color: rgba(0, 0, 0, 0.5)">@thegbmedia</span>
+          <a
+            href="https://twitter.com/thegbmedia"
+            style="color: rgba(0, 0, 0, 0.5)"
+            >@thegbmedia</a
+          >
           <p>Programming and Tech Education</p>
           <ul>
             <li>
@@ -166,8 +170,8 @@
       </div>
     </nav>
     <section class="section">
-      <main>
-        <article>
+      <main id="article-container">
+        <!-- <article>
           <h1>
             Python Tutorial: Zip Files – Creating and Extracting Zip Archives
           </h1>
@@ -220,34 +224,7 @@
           ></iframe>
           <p>Filed Under: <a href="">Development, Python</a></p>
           <p>Tagged With: <a href="">gzip, shutil, zip, zipfilen</a></p>
-        </article>
-        <article>
-          <h1>
-            Python Tutorial: Zip Files – Creating and Extracting Zip Archives
-          </h1>
-          <small
-            >November 19, 2019 by <a href="">Corey Schafer</a> -
-            <a href="">1 Comment</a></small
-          >
-          <p>
-            In this video, we will be learning how to create and extract zip
-            archives. We will start by using the zipfile module, and then we
-            will see how to do this using the shutil module. We will learn how
-            to do this with single files and directories, as well as learning
-            how to use gzip as well. Let’s get started…
-          </p>
-          <iframe
-            width="100%"
-            height="400px"
-            src="https://www.youtube.com/embed/z0gguhEmWiY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <p>Filed Under: <a href="">Development, Python</a></p>
-          <p>Tagged With: <a href="">gzip, shutil, zip, zipfilen</a></p>
-        </article>
+        </article> -->
       </main>
       <aside>
         <form action="">
@@ -317,7 +294,10 @@
       </aside>
     </section>
     <footer>
-      <p>© 2023 · GB Media · @thegbmedia</p>
+      <p>
+        © <span id="date"></span> · GB Media ·
+        <a href="https://twitter.com/thegbmedia">@thegbmedia</a>
+      </p>
     </footer>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
@@ -325,5 +305,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
